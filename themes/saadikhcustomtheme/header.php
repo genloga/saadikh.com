@@ -47,7 +47,10 @@
 								?>
 							</div>
 							<div class="product-header-message">
-								<img src="http://www.makemoneyinlife.com/wp-content/uploads/2014/03/728x90-sample.png" alt="banner">
+
+								<?php echo do_shortcode('[do_widget id=text-2]');?>
+
+								<!-- <img src="http://www.makemoneyinlife.com/wp-content/uploads/2014/03/728x90-sample.png" alt="banner">-->
 							</div>
 							<div class="product-header-content">
 								<div class="line-entry">
